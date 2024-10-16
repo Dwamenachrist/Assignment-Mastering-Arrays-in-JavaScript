@@ -8,10 +8,10 @@ fruits[2] =  'strawberry'  // replacing mango with strawberry
 
 console.log(fruits) // this is to show the update in fruit array
 
-fruits.push('watermelon')
+fruits.push('watermelon') // this line adds watermelon to the end of the array
 
-console.log(fruits)
+console.log(fruits) // This line shows the update of the array with watermelon at the end of the array
 
-fruits.shift()
+fruits.shift() // This removes apple the first fruit in the array
 
-console.log(fruits)
+console.log(fruits) // This line shows that the first fruit has been removed in the array

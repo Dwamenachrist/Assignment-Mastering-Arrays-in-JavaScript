@@ -1,4 +1,7 @@
 // Array Iteration
+
+let fruits = [ 'apple', 'banana', 'mango', 'orange', 'grape']
+
 for (let i = 0; i < fruits.length; i++ ){   // This line uses the for loop to iterate each fruit in the array
     console.log(fruits[i]) // This line print out the fruit in the array
 }

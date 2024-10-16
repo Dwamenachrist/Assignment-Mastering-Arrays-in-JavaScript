@@ -16,8 +16,8 @@ console.log(sortFruits)  // Print out the sorted array
 let reverseFruits = fruits.reverse()        // It reverses the order of the fruits in the array
 console.log(reverseFruits)  // Print out the reverse fruits in the array
 
-let reduceFruitsArray = fruits.reduce( ( acc,fruit) => {    // The reduce method put all the strings in the array together index by index
-    return acc + "," + fruit    // The fruits are returned and seperated by commas
+let reduceFruitsArray = fruits.reduce( ( acc,fruit) => {    // The reduce method put all the strings in the array together by concatenation
+    return acc + "," + fruit    // The fruits are returned seperated by commas
 })
 console.log(reduceFruitsArray)      // Print out the accumulated fruit seperated by commas
 
